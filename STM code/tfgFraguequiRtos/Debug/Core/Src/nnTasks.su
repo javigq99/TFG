@@ -1,0 +1,16 @@
+../Drivers/CMSIS/Include/core_cm4.h:1933:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+../Core/Src/nnTasks.c:92:6:createNnObjects	8	static
+../Core/Src/nnTasks.c:108:6:initSensorsAndNN	16	static
+../Core/Src/nnTasks.c:113:6:initTask	32	static
+../Core/Src/nnTasks.c:137:6:createNnTasks	16	static
+../Core/Src/nnTasks.c:150:13:ai_log_err	16	static
+../Core/Src/nnTasks.c:163:12:ai_boostrap	72	static
+../Core/Src/nnTasks.c:197:12:ai_run	32	static
+../Core/Src/nnTasks.c:217:6:initNN	16	static
+../Core/Src/nnTasks.c:258:6:acquireDataTask	24	static
+../Core/Src/nnTasks.c:280:6:processDataTask	24	static
+../Core/Src/nnTasks.c:306:6:postProcessTask	24	static
+../Core/Src/nnTasks.c:332:6:HAL_I2C_MemRxCpltCallback	24	static,ignoring_inline_asm
+../Core/Src/nnTasks.c:346:6:ReadI2C_IT	24	static
+../Core/Src/nnTasks.c:359:9:initSensors	32	static
+../Core/Src/nnTasks.c:377:6:readSensorsIT	24	static
