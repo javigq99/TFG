@@ -7,6 +7,7 @@ En el se incluyen:
 - El dataset se encuentra en la carpeta data.
 - Modelo entrenado y almacenando en formato .h5.
 - Proyecto del servidor web con todas las dependencias.
+- La carpeta STM VAL incluye los ficheros de entrada y salida para realizar la validación del modelo en el dispositivo, ya que el formato de entrada es ligeramente distinto.
 
 Advertencias:
 - Tener instalado la versión 7.0 del framework X-CUBE-AI.
