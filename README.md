@@ -2,12 +2,12 @@
  Red neuronal embebida para clasificación de movimiento.
 
 En el se incluyen:
-- Código de la aplicaciones en distintas versiones
+- Código de la aplicaciones en distintas versiones.
 - Scripts en python para el entrenamiento de la red y formateo de ficheros.
 - El dataset se encuentra en la carpeta data.
-- Modelo entrenado y almacenando en formato .h5.
+- Modelo entrenado y almacenando en formato h5 y tflite.
 - Proyecto del servidor web con todas las dependencias.
-- La carpeta STM VAL incluye los ficheros de entrada y salida para realizar la validación del modelo en el dispositivo, ya que el formato de entrada es ligeramente distinto.
+- La carpeta STM VAL incluye los ficheros de entrada y salida para realizar la validación del modelo en el dispositivo, ya que el formato de entrada es ligeramente distinto al de python.
 
 Advertencias:
 - Tener instalado la versión 7.0 del framework X-CUBE-AI.
