@@ -1,17 +1,41 @@
 # TFG
- Red neuronal embebida para clasificación de movimiento.
+Embedded neural network for human activity recognition.
 
-En el se incluyen:
-- Código de la aplicaciones en distintas versiones.
-- Scripts en python para el entrenamiento de la red y formateo de ficheros.
-- El dataset se encuentra en la carpeta data.
-- Modelo entrenado y almacenando en formato h5 y tflite.
-- Proyecto del servidor web con todas las dependencias.
-- La carpeta STM VAL incluye los ficheros de entrada y salida para realizar la validación del modelo en el dispositivo, ya que el formato de entrada es ligeramente distinto al de python.
+It includes:
+- Application code in different versions.
+- Python scripts for network training and file formatting.
+- The dataset is located in the data folder.
+- Model trained and stored in .h5 and .tflite format.
+- Web server project with all dependencies.
+- The STM VAL folder includes the input and output files to perform model validation on the device, as the input format is slightly different from python.
 
-Advertencias:
-- Tener instalado la versión 7.0 del framework X-CUBE-AI.
-- En caso de entrenar un modelo propio tener la versión 2.5.0 o inferior de Tensorflow.
-- Dicho modelo está entrenado con una serie de datos en movimiento, con los sensores ubicados en una zona cercana al tobillo, de no emplearlo de esa forma los resultados pueden ser erróneos.
-- Para ejecutar el servidor nos dirigimos a la ruta del proyecto y teclear el comando "node index.js".
-- Para la aplicación web, asegurarse de que tanto el dispositivo como el servidor están dentro de la misma red.
+Warnings:
+- Have version 7.0 of the X-CUBE-AI framework installed.
+- In case of training your own model, have Tensorflow version 2.5.0 or lower.
+- This model is trained with a series of data in movement, with the sensors located in an area near the ankle, if it is not used in this way the results may be not correct.
+- To run the server we go to the project path and type the command “node index.js”.
+- For the web application, make sure that both the device and the server are within the same network.
+- The sensors used to train the model is the ultra low power IMU LSM6DSL through the I2C interface.
+
+Workflow and results obtained:
+
+## Data acquisition
+
+To collect our own set of data. It is necessary to secure and protect the device. To address this issue a case has been developed on a 3d printer.
+
+<img src="imgs/device.jpg" alt="Device" height="350"/>
+<img src="imgs/prototype_leg.jpg" alt="Prototype Leg" height="350"/>
+
+## Working on real time
+
+In this section, the architecture of the firmware is described using FreeRTOS and having a less priority task of displaying the results on a web server.
+
+<img src="imgs/rtos_graph.png" alt="Device" height="350"/>
+<img src="imgs/web_server_arch.jpg" alt="Prototype Leg" height="350"/>
+<img src="imgs/web_server_interface.png" alt="Device" height="350"/>
+
+
+
+
+
+
