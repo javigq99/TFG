@@ -23,16 +23,16 @@ Workflow and results obtained:
 
 To collect our own set of data. It is necessary to secure and protect the device. To address this issue a case has been developed on a 3d printer.
 
-<img src="imgs/device.jpg" alt="Device" height="350"/>
-<img src="imgs/prototype_leg.jpg" alt="Prototype Leg" height="350"/>
+| <img src="imgs/device.jpg" alt="Device" height="200"/> | <img src="imgs/prototype_leg.jpg" alt="Prototype Leg" height="200"/> |
+|:--:|:--:|
 
 ## Working on real time
 
 In this section, the architecture of the firmware is described using FreeRTOS and having a less priority task of displaying the results on a web server.
 
-<img src="imgs/rtos_graph.png" alt="Device" height="350"/>
-<img src="imgs/web_server_arch.jpg" alt="Prototype Leg" height="350"/>
-<img src="imgs/web_server_interface.png" alt="Device" height="350"/>
+| <img src="imgs/rtos_graph.png" alt="RTOS" height="200"/> | <img src="imgs/web_server_arch.jpg" alt="Web Arch" height="200"/> | <img src="imgs/web_server_interface.png" alt="Web UI" height="200"/> |
+|:--:|:--:|:--:|
+
 
 
 
